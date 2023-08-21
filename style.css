@@ -49,6 +49,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 
 .articleContent {
@@ -96,7 +97,7 @@ a {
 
 .imgContainer {
     display: flex;
-    width: 429px;
+    width: 99%;
     height: 230px;
     background-image: url(img/1675449474_gas-kvas-com-p-fonovie-risunki-dlya-rabochego-stola-minim-10.jpg);
     background-size: cover;
