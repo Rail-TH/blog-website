@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     margin: 0;
     background-color: #202020;
     display: flex;
@@ -14,6 +15,7 @@ header {
     gap: 30px;
     width: 1440px;
     padding: 30px 30px 0 30px;
+    box-sizing: border-box;
 }
 
 header img {
@@ -38,16 +40,19 @@ h2 {
     margin: 0;
 }
 
-.indexContent {
-    height: 100%;
+#searchField {
     width: 1440px;
+    border: none;
+    outline: none;
+    height: 50px;
+}
+
+.indexContent {
+    height: 60vh;
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
-    align-self: stretch;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 60px;
     flex-wrap: wrap;
 }
@@ -59,7 +64,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-self: stretch;
 }
 
 .articleContent img {
@@ -68,26 +72,25 @@ h2 {
     margin: 30px 0 30px 0;
 }
 
-section {
+.articleRow {
     display: flex;
+    width: 1440px;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
-    flex: 1 0 0;
-    align-self: stretch;
-    padding: 0px 181px;
 }
 
 .article {
     display: flex;
     padding: 25px;
+    box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex: 1 0 0;
-    align-self: stretch;
+    align-items: start;
     transition: 0.2s;
     cursor: pointer;
+    min-width: 520px;
+    border-radius: 30px;
 }
 
 a {
@@ -95,11 +98,16 @@ a {
     text-decoration: none;
 }
 
+.articleUrl {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .imgContainer {
     display: flex;
     width: 99%;
     height: 230px;
-    background-image: url(img/1675449474_gas-kvas-com-p-fonovie-risunki-dlya-rabochego-stola-minim-10.jpg);
+    background-image: url(img/post_1.png);
     background-size: cover;
     border-radius: 12px;
     background-repeat: no-repeat;
@@ -108,9 +116,15 @@ a {
     margin-right: auto;
 }
 
+.articleImg {
+    width: 99%;
+    height: 230px;
+    border-radius: 12px;
+}
+
 .article:hover {
     background-color: #3D3D3D;
-    border-radius: 30px;
+    transform: translateY(-15px);
 }
 
 h3 {
@@ -135,22 +149,25 @@ time {
 }
 
 h4 {
-    width: 100%;
+    min-width: 100%;
     font-size: 64px;
     margin: 0 0 30px 0;
+    font-weight: 700;
 }
 
 h5 {
-    width: 100%;
+    min-width: 100%;
     font-size: 32px;
     margin: 0 0 30px 0;
+    font-weight: 600;
 }
 
 p {
-    width: 100%;
+    min-width: 100%;
     font-size: 24px;
     opacity: 0.8;
     margin: 0 0 30px 0;
+    line-height: 1.3;
 }
 
 footer {
@@ -158,26 +175,33 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
     gap: 10px;
-    flex: 1 0 0;
-    align-self: stretch;
     background-color: #141414;
-    position: relative;
+    position: absolute;
+    border-radius: 30px 30px 0 0;
     bottom: 0;
-    margin-top: 100px;
-    width: 100%;
+    width: 100vw;
+    height: 200px;
 }
 
 .footerHeader {
     font-size: 32px;
+    padding-left: 8%;
+    box-sizing: border-box;
 }
 
 .footerContainer {
     display: flex;
     flex-direction: column;
+    gap: 30px;
     width: 1440px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+}
+
+.socialLinks_container {
+    display: flex;
+    gap: 60px;
 }
 
 .socialLinks {
@@ -197,4 +221,40 @@ footer {
     opacity: 1;
     border-radius: 30px;
     background-color: #3D3D3D;
+}
+
+@media (max-width: 1440px) {
+    .footerContainer {
+        width: 100vw;
+    }
+
+    .articleRow {
+        width: 100vw;
+    }
+
+    header {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 1099px) {
+    .footerContainer {
+        width: 100vw;
+    }
+
+    .articleRow {
+        width: 100vw;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    .articleRow {
+        height: 100%;
+    }
+
+    .indexContent {
+        overflow-y: scroll;
+    }
 }
