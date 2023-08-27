@@ -269,12 +269,13 @@ footer {
     opacity: 0.5;
     transition: 0.2s;
     font-size: 32px;
+    border-radius: 30px;
 }
 
 .socialLinks:hover {
     opacity: 1;
-    border-radius: 30px;
     background-color: #3D3D3D;
+    transform: translateY(-15px);
 }
 
 @media (max-width: 1440px) {
@@ -408,6 +409,18 @@ footer {
     }
 }
 
+@media (max-width: 520px) {
+    .article {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .articleImg {
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
+
 @media (max-width: 475px) {
     header {
         width: 100vw;
@@ -453,6 +466,14 @@ footer {
     .socialLinks_container {
         flex-direction: column;
         gap: 30px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
     }
 }
 
