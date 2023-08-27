@@ -284,8 +284,8 @@ footer {
     }
 
     .articleContent {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     .articleRow {
@@ -303,23 +303,23 @@ footer {
     }
 
     h4 {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     h5 {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     p {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     .backWard-btn {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 }
 
@@ -335,23 +335,23 @@ footer {
     }
 
     h4 {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     h5 {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     p {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     .backWard-btn {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     .footerContainer {
@@ -375,23 +375,23 @@ footer {
     }
 
     h4 {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     h5 {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     p {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     .backWard-btn {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     .footerContainer {
@@ -419,6 +419,24 @@ footer {
         height: auto;
         aspect-ratio: 16/9;
     }
+
+    h4 {
+        width: 95vw;
+        max-width: 95vw;
+        font-size: 44px;
+    }
+    
+    h5 {
+        width: 95vw;
+        max-width: 95vw;
+        font-size: 24px;
+    }
+
+    p {
+        width: 95vw;
+        max-width: 95vw;
+        font-size: 22px
+    }
 }
 
 @media (max-width: 475px) {
@@ -433,26 +451,24 @@ footer {
     }
 
     h4 {
-        width: 100vw;
-        max-width: 100vw;
-        font-size: 44px;
+        width: 95vw;
+        max-width: 95vw;
+        font-size: 32px;
     }
     
     h5 {
-        width: 100vw;
-        max-width: 100vw;
-        font-size: 22px;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     p {
-        width: 100vw;
-        max-width: 100vw;
-        font-size: 24px;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     .backWard-btn {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     .footerContainer {
@@ -489,26 +505,23 @@ footer {
     }
 
     h4 {
-        width: 100vw;
-        max-width: 100vw;
-        font-size: 44px;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     h5 {
-        width: 100vw;
-        max-width: 100vw;
-        font-size: 22px;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     p {
-        width: 100vw;
-        max-width: 100vw;
-        font-size: 24px;
+        width: 95vw;
+        max-width: 95vw;
     }
 
     .backWard-btn {
-        width: 100vw;
-        max-width: 100vw;
+        width: 95vw;
+        max-width: 95vw;
     }
     
     .footerContainer {
